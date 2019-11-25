@@ -1,0 +1,35 @@
+input{
+    width:460px;
+    height: 100px;
+    margin:15px ;
+    border-radius:15px; 
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+
+/*     background-color: rgb(143, 123, 97);
+ */}
+button{
+    height: 90px;
+    width:90px;
+    margin: 10px;
+    border-radius:50%; 
+    color: white;
+    font-size: 30px;
+}
+
+.container{
+    background-color: rgb(143, 123, 97);
+    height: 600px;
+    width:500px;
+    border-radius:15px; 
+}
+.num{
+    background-color: rgb(56, 53, 53);
+}
+.oper{
+    background-color:orange;
+}
